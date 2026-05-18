@@ -18,6 +18,8 @@ Include useful context in errors and logs, but avoid excessive logging in loops 
 
 Write tests only when explicitly requested or when the repository already requires them for the change. Use `@QuarkusTest` for integration tests. Cover critical endpoints, validation, and main integrations. Mock external integrations when the real service is not part of the test.
 
+Use Jakarta Bean Validation annotations (e.g., `@NotNull`, `@Size`, `@Valid`) for incoming request payloads. Handle exceptions gracefully using `ExceptionMapper` to avoid leaking raw stack traces or throwing generic 500 errors to the client.
+
 ## Commit & Pull Request Guidelines
 
 Follow the repository commit convention. If none exists, use Conventional Commits such as `feat: add payment endpoint` or `fix: handle invalid document id`. Pull requests should describe REST contract changes, OpenAPI changes, persistence changes, and verification performed.
