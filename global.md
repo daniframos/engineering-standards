@@ -18,6 +18,8 @@ Use one responsibility per function and module. Prefer explicit types; do not us
 
 Prefer early returns over nested `if` blocks, with no more than two indentation levels. Remove duplication by extracting shared logic into a function or module. Exception messages must include the offending value and the expected shape.
 
+Prefer idiomatic code over personal preference. Generated code must follow the dominant conventions already present in the repository for the target language, framework, and architectural style, except when the user explicitly requests a different approach or convention.
+
 ## Testing Guidelines
 
 Do not add tests unless explicitly requested. When tests are requested, cover the behavior being changed and include negative cases for validation or error handling.

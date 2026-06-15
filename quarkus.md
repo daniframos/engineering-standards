@@ -20,6 +20,8 @@ Write tests only when explicitly requested or when the repository already requir
 
 Always try to compile the project. Analyze the project and use the appropriate JDK version. The JDK is available in C:\ferramentas\openjdk, C:\Users\ramos\OneDrive\software\openjdk or C:\Ferramentas VM\openjdk.
 
+Use Jakarta Bean Validation annotations (e.g., `@NotNull`, `@Size`, `@Valid`) for incoming request payloads. Handle exceptions gracefully using `ExceptionMapper` to avoid leaking raw stack traces or throwing generic 500 errors to the client.
+
 ## Commit & Pull Request Guidelines
 
 Follow the repository commit convention. If none exists, use Conventional Commits such as `feat: add payment endpoint` or `fix: handle invalid document id`. Pull requests should describe REST contract changes, OpenAPI changes, persistence changes, and verification performed.
