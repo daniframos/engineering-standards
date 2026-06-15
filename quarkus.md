@@ -18,6 +18,8 @@ Include useful context in errors and logs, but avoid excessive logging in loops 
 
 Write tests only when explicitly requested or when the repository already requires them for the change. Use `@QuarkusTest` for integration tests. Cover critical endpoints, validation, and main integrations. Mock external integrations when the real service is not part of the test.
 
+Always try to compile the project. Analyze the project and use the appropriate JDK version. The JDK is available in C:\ferramentas\openjdk, C:\Users\ramos\OneDrive\software\openjdk or C:\Ferramentas VM\openjdk.
+
 ## Commit & Pull Request Guidelines
 
 Follow the repository commit convention. If none exists, use Conventional Commits such as `feat: add payment endpoint` or `fix: handle invalid document id`. Pull requests should describe REST contract changes, OpenAPI changes, persistence changes, and verification performed.

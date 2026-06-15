@@ -18,6 +18,8 @@ Do not place business logic in JPA entities, Controllers, or Repositories. Keep 
 
 Use unit tests for business rules. Use `@SpringBootTest` only when the full application context is required. Prefer slice tests such as `@WebMvcTest` and `@DataJpaTest` when they fit the behavior under test. Mock external integrations in automated tests.
 
+Always try to compile the project. Analyze the project and use the appropriate JDK version. The JDK is available in C:\ferramentas\openjdk, C:\Users\ramos\OneDrive\software\openjdk or C:\Ferramentas VM\openjdk.
+
 ## Commit & Pull Request Guidelines
 
 Follow the repository commit convention. If none exists, use Conventional Commits such as `feat: add customer validation` or `fix: prevent duplicate records`. Pull requests should describe API contract changes, persistence changes, and verification performed.
