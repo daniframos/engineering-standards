@@ -26,6 +26,8 @@ Do not add tests unless explicitly requested. When tests are requested, cover th
 
 ## Commit & Pull Request Guidelines
 
+Do not create commits unless explicitly requested by the user.
+
 Follow Conventional Commits:
 
 - `feat:` for new features.
