@@ -28,6 +28,8 @@ Do not add tests unless explicitly requested. When tests are requested, cover th
 
 Do not create commits unless explicitly requested by the user.
 
+Even when the user explicitly requests a commit, create commits only for the specific changes requested. Do not create automatic, broad, or unrelated commits.
+
 Follow Conventional Commits:
 
 - `feat:` for new features.
