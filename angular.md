@@ -8,6 +8,8 @@ Use the existing Angular project layout. Keep page components, visual components
 
 Use the package manager already configured by the project. Common commands are `npm start`, `npm test`, `npm run lint`, and `npm run build`; only rely on them when they exist in `package.json`. Document any new script added to the project.
 
+To verify whether a change worked, prefer using the project's LSP.
+
 ## Coding Style & Naming Conventions
 
 Use TypeScript with strict type checking when the project already supports it. Avoid `any`; use `unknown` when the type is uncertain and narrow it before use. Prefer explicit types for inputs, outputs, return values, service contracts, and domain objects.

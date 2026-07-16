@@ -11,6 +11,8 @@ Use the package manager already configured by the project. Common commands are `
 
 Test user behavior instead of internal implementation details. Use React Testing Library when the project already uses it. Cover critical flows, error states, empty states, and validation behavior when tests are requested or already expected by the project.
 
+To verify whether a change worked, prefer using the project's LSP.
+
 ## Coding Style & Naming Conventions
 
 Use TypeScript when the project is already typed. Avoid `any` or implicit `any` in catch blocks; prefer explicit types for props, return values, and domain objects.
