@@ -24,6 +24,8 @@ Prefer idiomatic code over personal preference. Generated code must follow the d
 
 Do not add tests unless explicitly requested. When tests are requested, cover the behavior being changed and include negative cases for validation or error handling.
 
+Do not run smoke tests. All tests will be performed manually.
+
 ## Commit & Pull Request Guidelines
 
 Do not create commits unless explicitly requested by the user.
