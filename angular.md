@@ -55,3 +55,4 @@ Follow the repository commit convention. If none exists, use Conventional Commit
 Preserve basic accessibility. The UI must follow WCAG AA minimums, including labels, alternative text, keyboard navigation, focus management, color contrast, and ARIA attributes where applicable.
 
 Handle loading, error, and empty states. Do not hardcode URLs, tokens, credentials, or secrets.
+

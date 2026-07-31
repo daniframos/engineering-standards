@@ -48,3 +48,5 @@ Write commit messages and pull request descriptions in Brazilian Portuguese unle
 Always write generated user-facing text in Brazilian Portuguese unless the user asks for another language. Keep existing comments during refactoring because they may carry intent and context. Write comments that explain why, not what, and reference issue numbers or commit SHAs when a line exists due to a specific bug or upstream constraint.
 
 Do not add fallbacks unless explicitly requested. Do not expose secrets, tokens, passwords, or sensitive URLs in code or logs.
+
+If the project has a file named openapi.yaml, lsp.yaml, simple ignore-it.
